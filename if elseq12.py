@@ -1,0 +1,11 @@
+basicsalary=int(input("enter the number..."))
+grosssalary=int(input("enter the number.."))
+if basicsalary<=10000:
+    print("HRA=20%")
+    print("DA=80%")
+    if basicsalary<=20000:
+       print("HRA=25%")
+       print("DA=90%")
+       if basicsalary<=20000:
+           print("HRA=30%")
+           print("DA=95%")
